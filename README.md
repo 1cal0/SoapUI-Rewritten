@@ -17,9 +17,9 @@ Implementation is checked against the real `RCCService.wsdl`
 and a proven PHP envelope for 2008-era RCC:
 
 - WSDL: [RCCService.wsdl](https://finobe.lol/Resources/RCCService.wsdl)
-- Envelope reference: `https://github.com/1cal0/RCCSoap08`
-- Background: `https://docs.mercs.dev/services/rcc/`,
-  `https://uboomblox.miraheze.org/wiki/RBXGS`
+- Envelope reference: [RCCSoap08](https://github.com/1cal0/RCCSoap08)
+- Background: [Mercury Documentation](https://docs.mercs.dev/services/rcc/),
+  [BOOMBLOX Documentation](https://uboomblox.miraheze.org/wiki/RBXGS)
 
 Known gaps (help welcome): `GetExpiration` has no client/UI yet, RCC
 `LuaValue[]` results currently render as "Success!" instead of typed log
