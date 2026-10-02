@@ -16,7 +16,7 @@ Implementation is checked against the real `RCCService.wsdl`
 (`targetNamespace="http://roblox.com/"`, document/literal, `127.0.0.1:64989`)
 and a proven PHP envelope for 2008-era RCC:
 
-- WSDL: `https://finobe.lol/Resources/RCCService.wsdl`
+- WSDL: [RCCService.wsdl](https://finobe.lol/Resources/RCCService.wsdl)
 - Envelope reference: `https://github.com/1cal0/RCCSoap08`
 - Background: `https://docs.mercs.dev/services/rcc/`,
   `https://uboomblox.miraheze.org/wiki/RBXGS`
