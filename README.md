@@ -38,8 +38,8 @@ lines, and response values are not entity-decoded on the way back.
 
 ```powershell
 # Clone
-git clone https://github.com/p0s0/SoapUI.git
-cd SoapUI
+git clone https://github.com/1cal0/SoapUI-Rewritten.git
+cd SoapUI-Rewritten
 
 # Restore + build (VS Developer PowerShell)
 msbuild SoapUI.sln /p:Configuration=Debug
@@ -102,7 +102,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the layering rationale.
 
 ## SOAP coverage
 
-### RCC (`http://<ip>:<port>`)
+### RCCService
 
 | Action | Notes |
 |---|---|
@@ -116,7 +116,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the layering rationale.
 | CloseExpiredJobs / CloseAllJobs | Returns jobs-closed count |
 | BatchJob / BatchJobEx | Client support; no dedicated UI panel |
 
-### RBXGS (`http://<ip>/RBXGS/WebService.dll`)
+### RBXGS
 
 | Action | Notes |
 |---|---|
