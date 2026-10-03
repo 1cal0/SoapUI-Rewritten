@@ -1,7 +1,7 @@
 # SoapUI-Rewritten
 ![SoapUI Screenshot](https://github.com/1cal0/SoapUI-Rewritten/blob/main/screenshots/soap.png?raw=true)
 
-WinForms client for driving Roblox RCC / RBXGS SOAP services: open jobs, execute Lua, inspect environments, and review stdout - without hand-crafting XML envelopes.
+WinForms client for driving Roblox RCCS / RBXGS SOAP services: open jobs, execute Lua, inspect environments, and review stdout - without hand-crafting XML envelopes.
 
 ## Features
 
@@ -145,4 +145,4 @@ Issues and PRs are welcome. Please:
 
 ## License
 
-GNU Lesser General Public License v2.1 is used for this repository.
+[GNU Lesser General Public License v2.1](https://github.com/1cal0/SoapUI-Rewritten/blob/main/LICENSE.md) is used for this repository.
